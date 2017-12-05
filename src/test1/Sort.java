@@ -4,7 +4,7 @@ public class Sort {
 
 	public static void main(String[] args) {
 		int[] numberList = {10,5,3,4,6,9,5,6};
-		int pass=0;
+	//	int pass=0;
 		int temp;
 		int counter = 0;
 		for(int x =0; x<numberList.length; x++){
