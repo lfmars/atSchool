@@ -8,7 +8,7 @@ public class Sort {
 		int temp;
 		int counter = 0;
 		for(int x =0; x<numberList.length; x++){
-			for(int y = 0; y<numberList.length-1; y++){
+			for(int y = 0; y<numberList.length-1; y+=2){
 				if(numberList[y]>numberList[y+1]){
 					temp =numberList[y+1];
 					numberList[y+1] = numberList[y];
