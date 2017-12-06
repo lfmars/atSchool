@@ -5,7 +5,7 @@ import java.io.IOException;
 public class Bilekas {
 
 	public  Object adder(Object firstValue, Object secondValue) {
-		int myValue;
+	//	int myValue;
 		if(firstValue.getClass() == secondValue.getClass()) {
 			if(firstValue instanceof String) {
 				return(String)firstValue + (String)firstValue;
